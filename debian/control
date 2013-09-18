@@ -1,15 +1,15 @@
 Source: mesos
 Section: unknown
 Priority: extra
-Maintainer: unknown <curzonj@jc816a-scratch-006588.dfw2>
-Build-Depends: debhelper (>= 8.0.0)
+Maintainer: Jordan Curzon <curzonj@gmail.com>
+Build-Depends:, debhelper (>= 8.0.0), python-dev, libcppunit-dev, libunwind8-dev, openjdk-7-jdk, libcurl4-openssl-dev, git, autoconf, libtool, wget, ruby1.9.1, ruby1.9.1-dev
 Standards-Version: 3.9.2
-Homepage: <insert the upstream URL, if relevant>
-#Vcs-Git: git://git.debian.org/collab-maint/mesos.git
-#Vcs-Browser: http://git.debian.org/?p=collab-maint/mesos.git;a=summary
+Homepage: http://mesos.apache.org/
+Vcs-Git: git://git.apache.org/mesos.git
+Vcs-Browser: https://github.com/apache/mesos
 
 Package: mesos
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Depends: ${shlibs:Depends}, ${misc:Depends}, libunwind8, openjdk-7-jre-headless, libcurl3
+Description: Mesos
+ Apache mesos
