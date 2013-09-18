@@ -13,7 +13,6 @@ build:
 	./bootstrap
 	./configure --prefix=/usr
 	make
-	make install
 
 %:
 	dh $@ 
