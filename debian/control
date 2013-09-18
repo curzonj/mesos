@@ -2,7 +2,7 @@ Source: mesos
 Section: unknown
 Priority: extra
 Maintainer: Jordan Curzon <curzonj@gmail.com>
-Build-Depends:, debhelper (>= 8.0.0), python-dev, libcppunit-dev, libunwind8-dev, openjdk-7-jdk, libcurl4-openssl-dev, git, autoconf, libtool, wget, ruby1.9.1, ruby1.9.1-dev
+Build-Depends:, debhelper (>= 8.0.0), python-dev, libcppunit-dev, libunwind8-dev, openjdk-7-jdk, libcurl4-openssl-dev, git, autoconf, libtool, wget, ruby1.9.1, ruby1.9.1-dev, automake
 Standards-Version: 3.9.2
 Homepage: http://mesos.apache.org/
 Vcs-Git: git://git.apache.org/mesos.git
