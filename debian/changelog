@@ -1,0 +1,5 @@
+mesos (0.13.0.8602dd28-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- unknown <curzonj@jc816a-scratch-006588.dfw2>  Wed, 18 Sep 2013 01:31:14 +0000
