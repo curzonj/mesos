@@ -1,4 +1,4 @@
-mesos (0.14.0-rc3-1) unstable; urgency=low
+mesos (0.14.0-rc3-1ubuntu13.04) unstable; urgency=low
 
   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 
